@@ -1,0 +1,15 @@
+h1 {
+    font-size: 40px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.37);
+}
+
+.logout-btn {
+    transition: 0.2s;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.logout-btn:hover {
+    background: #e5e5e5;
+}
