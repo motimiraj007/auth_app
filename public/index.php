@@ -12,6 +12,7 @@ $dotenv->load();
 define('RESOURCE_PATH', __DIR__ . '/../resources');
 define('VIEW_PATH', RESOURCE_PATH . '/views');
 define('APP_PATH', __DIR__ . '/../app');
+define('TEST_PATH', __DIR__ . '/test');
 
 
 Route::get('/', [HomeController::class, 'index']);
